@@ -16,23 +16,17 @@ const instrumentSerif = Instrument_Serif({
 export const metadata: Metadata = {
   title: "MM Yazılım - Yazılımın Dünyası",
   description: "Modern teknolojilerle işinizi geleceğe taşıyoruz. Web, mobil ve kurumsal yazılım çözümleri.",
-  generator: "v0.app",
+  metadataBase: new URL("https://mmyazilim.com.tr"),
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
+        url: "/logo.png",
+        sizes: "32x32",
+        type: "image/png",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/logo.png",
+    shortcut: "/logo.png",
   },
 }
 
