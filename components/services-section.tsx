@@ -75,7 +75,7 @@ export function ServicesSection() {
   }
 
   return (
-    <section id="services" ref={parentRef} className="relative md:h-[400vh] h-auto">
+    <section id="services" ref={parentRef} className="relative md:h-[200vh] h-auto">
       <div
         ref={stickyRef}
         className="md:sticky md:top-0 md:h-screen md:overflow-hidden flex items-center py-20 md:py-0"
