@@ -65,8 +65,8 @@ export function Navbar() {
             Projeler
           </a>
           <a
-            href="#contact"
-            onClick={(e) => handleScrollOrNavigate(e, "#contact")}
+            href="#iletisim"
+            onClick={(e) => handleScrollOrNavigate(e, "#iletisim")}
             className="hover:text-[#e0e0e0] transition-colors"
           >
             İletişim
@@ -113,8 +113,8 @@ export function Navbar() {
                 Projeler
               </a>
               <a
-                href="#contact"
-                onClick={(e) => handleScrollOrNavigate(e, "#contact")}
+                href="#iletisim"
+                onClick={(e) => handleScrollOrNavigate(e, "#iletisim")}
                 className="hover:text-[#e0e0e0] transition-colors py-2"
               >
                 İletişim
